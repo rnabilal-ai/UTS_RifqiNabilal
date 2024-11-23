@@ -1,15 +1,15 @@
 <?php
 include("../koneksi.php");
 
-$nm = $_POST['nama'];
-$lki = $_POST['lokasi'];
-$date= $_POST['tanggal'];
-$jml = $_POST['jumlah'];
+$nama = $_POST['nama'];
+$lokasi = $_POST['lokasi'];
+$tanggal = $_POST['tanggal'];
+$jumlah = $_POST['jumlah'];
 
-$save = "INSERT INTO  eventd (nama_event,lokasi,tanggal_event,jumlah_peserta)
- VALUES ('$nm','$lki,'$date','$jml')";
+$save = "INSERT INTO  events (nama,lokasi,tanggal,jumlah)
+ VALUES ('$nama','$lokasi','$tanggal','$jumlah')";
 
-$proses = mysqli_query($koneksi,$save);
+$proses = mysqli_query($koneksi, $save);
 
 // header("location.index.php");
 ?>

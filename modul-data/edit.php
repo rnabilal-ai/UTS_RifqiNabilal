@@ -6,7 +6,7 @@ include("../koneksi.php");
 $id = $_GET['id'];
 
 // 3. menngambil semua record data berdasarkan id yang dipilih
-$ambil = "SELECT * FROM eventd WHERE id='$id' ";
+$ambil = "SELECT * FROM events WHERE id='$id'";
 
 // 4.menjalankan query
 $edit = mysqli_query($koneksi,$ambil);
@@ -29,7 +29,7 @@ $data = mysqli_fetch_array($edit);
 <?php
     include_once('../navbar.php');
 ?>
-
++
 <div class="container">
     <div class="row mt-5">
         <div class="col-8 m-auto">

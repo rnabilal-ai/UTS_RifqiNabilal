@@ -14,7 +14,7 @@
 
 <div class="container">
     <div class="row mt-5">
-        <div class="col-6 m-auto">
+        <div class="col-8 m-auto">
             <div class="card">
             <div class="card-header">
                 <h3 class="float-start">Event Manager</h3>
@@ -26,6 +26,8 @@
                                 <th scope="col">No</th>
                                 <th scope="col">Name event</th>
                                 <th scope="col">Lokasi Event</th>
+                                <th scope="col">tanggal Event</th>
+                                <th scope="col">Jumlah Peserta</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>  
@@ -34,9 +36,9 @@
 
                     include("../koneksi.php");
 
-                    $simpan = "SELECT * FROM eventd";
+                    $tampil = "SELECT * FROM events";
 
-                    $proses = mysqli_query($koneksi,$simpan);
+                    $proses = mysqli_query($koneksi,$tampil);
 
                     $nomor = 1;
                     foreach($proses as $data){
@@ -64,7 +66,7 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Yakin data <b><?=$data['id']?></b>ingin di hapus?
+                                    Yakin data <b><?=$data['nama']?> </b> ingin di hapus?
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
