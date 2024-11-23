@@ -20,7 +20,7 @@
             </div>
             <div class="card-body">
                 <h4>Selamat Datang, User</h4>
-                <p>Yok Bisa lal</p>
+                <p>Yok Bisa lal harus semangat yaa ke pastii bisa kok akuu yakin karna ke udah sejauh ini jangan pernah lihat belakang AYOK SEMANGAT KE PASTI BISAA</p>
             </div>
             </div>
         </div>
