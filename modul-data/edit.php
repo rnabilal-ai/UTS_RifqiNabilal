@@ -21,7 +21,7 @@ $data = mysqli_fetch_array($edit);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Data Jurusan</title>
+    <title>Edit Data Event</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/all.css">
 </head>
@@ -35,7 +35,7 @@ $data = mysqli_fetch_array($edit);
         <div class="col-8 m-auto">
             <div class="card">
             <div class="card-header">
-                <h3 class="float-start">Edit Data Jurusan</h3>
+                <h3 class="float-start">Edit Data Event</h3>
                 <span class="float-end"><a class="btn btn-primary"><i class="fa-solid fa-plus"></i>Tambah data</a></span>
             </div>
             <div class="card-body">
