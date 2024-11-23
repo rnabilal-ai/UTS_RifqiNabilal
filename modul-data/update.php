@@ -7,7 +7,7 @@ $lki = $_POST['lokasi'];
 $tgl = $_POST['tanggal'];
 $jml = $_POST['jumlah'];
 
-$sunting = "UPDATE events SET nama='$nm',lokasi='$lki',tanggal='$tgl',jumlah='jml' WHERE id='$id' ";
+$sunting = "UPDATE eventd SET nama='$nm',lokasi='$lki',tanggal='$tgl',jumlah='jml' WHERE id='$id' ";
 
 $proses = mysqli_query($koneksi,$sunting);
 
