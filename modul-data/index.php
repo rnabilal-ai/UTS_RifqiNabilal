@@ -34,7 +34,7 @@
 
                     include("../koneksi.php");
 
-                    $simpan = "SELECT * FROM eventd";
+                    $simpan = "SELECT * FROM events";
 
                     $proses = mysqli_query($koneksi,$simpan);
 
