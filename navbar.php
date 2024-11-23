@@ -7,13 +7,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/htdocs/UTS_RifqiNabilal/modul-data/index.php">Data Event</a>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/UTS_RifqiNabilal/index.php">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Data Mahasiswa</a>
+          <a class="nav-link active" aria-current="page" href="/UTS_RifqiNabilal/modul-data/index.php">Data Event</a>
         </li>
-       
       </ul>
     </div>
   </div>
