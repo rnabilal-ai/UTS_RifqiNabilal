@@ -21,7 +21,7 @@
                 <span class="float-end"><a class="btn btn-primary"><i class="fa-solid fa-plus"></i>Tambah data</a></span>
             </div>
             <div class="card-body">
-            <form action="proses.php" method="post">
+            <form action="proses1.php" method="post">
                 <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nama Event</label>
                 <input type="text" name="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
